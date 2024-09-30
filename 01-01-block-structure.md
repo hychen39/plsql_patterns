@@ -1,8 +1,8 @@
 ---
-description: page desc
+description: "匿名區塊基本結構: begin ... end; /"
 ---
 
-# 匿名區塊基本結構
+# 匿名區塊基本結構 (P01_01)
 
 PL/SQL 程式設計中，最基本的結構是匿名區塊(Anonymous Block)。
 

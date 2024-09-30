@@ -1,8 +1,10 @@
-# Title 
+---
+description: 從表格中選擇一個資料列的多個欄位值並將它們放入 PL/SQL 變數中。
+---
 
-P02. 從表格中選擇一個資料列的多個欄位值並將它們放入 PL/SQL 變數中。
+# 從表格中選擇一個資料列的多個欄位值並將它們放入 PL/SQL 變數中 (P02_01)
 
-## Description
+## 說明
 
 我們時常需要從表格中選取欄位值並將它們放入 PL/SQL 變數中，以供進一步處理。在 PL/SQL 中，我們可以使用 `SELECT INTO` 陳述句來選取一個資料列的多個欄位值並將它們放入 PL/SQL 變數中。
 
@@ -12,7 +14,7 @@ P02. 從表格中選擇一個資料列的多個欄位值並將它們放入 PL/SQ
 
 使用 `%type` 屬性來定義區域變數的資料型態，以便根據欄位的資料型態來動態定義變數，而不是固定寫死資料型態。
 
-## Example
+## 範例
 
 選取 `employees` 表中的 `employee_id`, `first_name`, 和 `last_name` 欄位值並存入區域變數 `v_employee_id`, `v_first_name`, 和 `v_last_name`。
 
