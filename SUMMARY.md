@@ -14,4 +14,4 @@
 
 ## Ch04 <a href="#ch04" id="ch04"></a>
 * [P04_01 明確轉換](04-01-explicit-convert.md)
-* [P04_02 存取被遮蔽的外部區域變數](04-02-shadowed-var.md)
+* [P04_02 存取被遮蔽的外部區域變數](04-02-shadow-var.md)
