@@ -2,4 +2,11 @@
 
 * [PL/SQL Programming Patterns](README.md)
 * [P01_01 匿名區塊基本結構](01-01-block-structure.md)
-* [P02_01 從表格中選取多個欄位值並存入 Pl/SQL 變數](01-02-select-into.md)
+
+## Ch02 <a href="#ch02" id="ch02"></a>
+* [P02_01 從表格中選取多個欄位值並存入 Pl/SQL 變數](02-01-select-into.md)
+
+## Ch03 <a href="#ch03" id="ch03"></a>
+* [P03_01 變數初始化](03-01-init-var.md)
+* [P03_02 指派格式敏感(format-sensitive)的文字值給變數](03-02-init-var-format-sens.md)
+* [P03_03 綁定變數的使用](03-03-bind-var.md)
