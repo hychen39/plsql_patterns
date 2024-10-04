@@ -10,7 +10,7 @@
 * [P03_01 變數初始化](03-01-init-var.md)
 * [P03_02 指派格式敏感(format-sensitive)的文字值給變數](03-02-init-var-format-sens.md)
 * [P03_03 綁定變數的使用](03-03-bind-var.md)
-* [P03_04 `%type` 綁定區域變數的資料型態到表格的欄位資料型態](03-04-type-ref.md)
+* [P03_04 %type 綁定區域變數的資料型態到表格的欄位資料型態](03-04-type-ref.md)
 
 ## Ch04 <a href="#ch04" id="ch04"></a>
 * [P04_01 明確轉換](04-01-explicit-convert.md)
