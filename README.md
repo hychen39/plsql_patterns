@@ -20,6 +20,10 @@ description: 提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學�
 [03-03-bind-var.md](03-03-bind-var.md)
 {% endcontent-ref %}
 
+{% content-ref url="03-04-type-ref.md" %}
+[03-04-type-ref.md](03-04-type-ref.md)
+{% endcontent-ref %}
+
 
 ### 2024 Sep
 
