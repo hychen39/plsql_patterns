@@ -6,6 +6,7 @@
 ## Ch02
 
 * [P02\_01 從表格中選取多個欄位值並存入 Pl/SQL 變數](02-01-select-into.md)
+* [P02\_02 尋找錯誤行](02-02-find-error-line.md)
 
 ## Ch03
 

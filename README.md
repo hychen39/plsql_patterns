@@ -8,6 +8,10 @@ description: 提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學�
 
 ### 2024 Oct
 
+{% content-ref url="02-02-find-error-line.md" %}
+[02-02-find-error-line.md](02-02-find-error-line.md)
+{% endcontent-ref %}
+
 {% content-ref url="03-01-init-var.md" %}
 [03-01-init-var.md](03-01-init-var.md)
 {% endcontent-ref %}
