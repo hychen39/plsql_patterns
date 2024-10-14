@@ -19,3 +19,7 @@
 
 * [P04\_01 明確轉換](04-01-explicit-convert.md)
 * [P04\_02 存取被遮蔽的外部區域變數](04-02-shadow-var.md)
+
+## Ch05
+
+* [P05\_01 在 PL/SQL 中撰寫 DML 語句](05-01-write-dml-stmt.md)

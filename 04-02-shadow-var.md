@@ -2,7 +2,7 @@
 description: "使用區塊標籤(block label)修飾區域變數，明確的指出取用那個範圍的變數。"
 ---
 
-# 存取被遮蔽的區域變數(Shadowed Local Variables)
+# 存取被遮蔽的區域變數(Shadowed Local Variables)(P04-02)
 
 ## 說明 
 

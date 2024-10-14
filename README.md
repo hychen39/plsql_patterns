@@ -6,6 +6,12 @@ description: 提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學�
 
 ## 近期文章
 
+### 2024 Oct 14
+
+{% content-ref url="05-01-write-dml-stmt.md" %}
+[05-01-write-dml-stmt.md](05-01-write-dml-stmt.md)
+{% endcontent-ref %}
+
 ### 2024 Oct
 
 {% content-ref url="02-02-find-error-line.md" %}
