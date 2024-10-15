@@ -23,3 +23,5 @@
 ## Ch05
 
 * [P05\_01 在 PL/SQL 中撰寫 DML 語句](05-01-write-dml-stmt.md)
+* [P05\_02 取得 DML 語句所影響的資料列數](05-02-obtain-num-affected-rows.md)
+* [P05\_03 插入多筆資料列至表格中](05-03-insert-multi-rows.md)

@@ -3,10 +3,10 @@ description: "可以在 PL/SQL 區塊中直接撰寫 SELECT、INSERT、UPDATE、
 ---
 
 
-# 在 PL/SQL 區塊中撰寫 DML 語句 
+# 在 PL/SQL 區塊中撰寫 DML 語句 (P05_01)
 
 
-## Description
+## 描述
 
 你可以在 PL/SQL 區塊中直接撰寫 SELECT、INSERT、UPDATE、DELETE 和 MERGE 語句，來操作資料庫表格。
 
