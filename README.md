@@ -6,6 +6,26 @@ description: 提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學�
 
 ## 近期文章
 
+### 2024 Oct 20
+
+{% content-ref url="07-02-init-associated-array.md" %}
+[07-02-init-associated-array.md](07-02-init-associated-array.md)
+{% endcontent-ref %}
+
+{% content-ref url="07-03-select-update-insert-with-record.md" %}
+[07-03-select-update-insert-with-record.md](07-03-select-update-insert-with-record.md)
+{% endcontent-ref %}
+
+{% content-ref url="07-04-handle-select-with-multiple-rows.md" %}
+[07-04-handle-select-with-multiple-rows.md](07-04-handle-select-with-multiple-rows.md)
+{% endcontent-ref %}
+
+### 2024 Oct 19
+
+{% content-ref url="07-01-access-record-fields.md" %}
+[07-01-access-record-fields.md](07-01-access-record-fields.md)
+{% endcontent-ref %}
+
 ### 2024 Oct 15
 
 {% content-ref url="05-02-obtain-num-affected-rows.md" %}

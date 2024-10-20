@@ -25,3 +25,9 @@
 * [P05\_01 在 PL/SQL 中撰寫 DML 語句](05-01-write-dml-stmt.md)
 * [P05\_02 取得 DML 語句所影響的資料列數](05-02-obtain-num-affected-rows.md)
 * [P05\_03 插入多筆資料列至表格中](05-03-insert-multi-rows.md)
+
+## Ch07 
+* [P07\_01 RECORD 型態變數的定義、宣告及使用](07-01-access-record-fields.md)
+* [P07\_02 初始化關聯陣列(associative array)](07-02-init-associated-array.md)
+* [P07\_03 在 DML 語句中使用 RECORD 變數](07-03-select-update-insert-with-record.md)
+* [P07\_04 存放 SELECT 語句回傳的多筆資料列](07-04-handle-select-with-multiple-rows.md)
