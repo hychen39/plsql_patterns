@@ -6,6 +6,12 @@ description: 提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學�
 
 ## 近期文章
 
+### 2024 Nov 01
+
+{% content-ref url="08-01-DML-explicit-cursor.md" %}
+[08-01-DML-explicit-cursor.md](08-01-DML-explicit-cursor.md)
+{% endcontent-ref %}
+
 ### 2024 Oct 20
 
 {% content-ref url="07-02-init-associated-array.md" %}
