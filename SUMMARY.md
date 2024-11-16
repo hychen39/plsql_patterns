@@ -31,3 +31,6 @@
 * [P07\_02 初始化關聯陣列(associative array)](07-02-init-associated-array.md)
 * [P07\_03 在 DML 語句中使用 RECORD 變數](07-03-select-update-insert-with-record.md)
 * [P07\_04 存放 SELECT 語句回傳的多筆資料列](07-04-handle-select-with-multiple-rows.md)
+
+## Ch08
+* [P08\_01 使用顯式游標進行 DML 操作](08-01-DML-explicit-cursor.md)
