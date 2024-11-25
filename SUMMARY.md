@@ -34,3 +34,6 @@
 
 ## Ch08
 * [P08\_01 使用顯式游標進行 DML 操作](08-01-DML-explicit-cursor.md)
+
+## Ch09 例外處理
+* [P09\_01 例外處理概述](09-01-except-handling.md)

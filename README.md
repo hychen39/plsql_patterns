@@ -1,10 +1,16 @@
 ---
-description: 提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學習。
+description: "提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學習。"
 ---
 
 # PL/SQL Programming Patterns
 
 ## 近期文章
+
+### 2024 Nov 25
+
+{% content-ref url="09-01-except-handling.md" %}
+[09-01-except-handling.md](09-01-except-handling.md)
+{% endcontent-ref %}
 
 ### 2024 Nov 01
 
