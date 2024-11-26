@@ -83,15 +83,14 @@ end;
 
 ## 情境 3: 將表格中的所有欄位放入到一個 RECORD 變數中
 
-若我們要將表格中的所有欄位放入到一個 RECORD 變數中，我們可以使用 `%rowtype` 來定義 RECORD 型態。`%rowtype` 用來定義一個與表格結構相同的記錄型態。 
+若我們要將表格中的所有欄位放入到一個 RECORD 變數中，我們可以使用 `%rowtype` 來複製表格的 columns 結構。`%rowtype` 用來定義一個與表格結構相同的記錄型態。 此時，我們不用再自己定義記錄型態(RECORD type)。
 
 接著，在 SELECT 子句中使用 `*` 來選取所有欄位，不需逐一列出欄位。如此，我們可以寫出很簡潔的程式碼。
 
 假設我們需要將 `employees` 表格中 employee_id 為 100 的員工的所有欄位放入到一個 RECORD 變數中。程式的步驟如下：
 
-1. 使用 `%rowtype` 來定義一個與 `employees` 表格結構相同的記錄型態。
-2. 宣告一個記錄變數(RECORD type variable)。
-3. 選取一列的欄位放入到記錄變數中。
+1. 使用 `%rowtype` 來宣告一個與 `employees` 表格結構相同的記錄變數。
+2. 選取一列的欄位放入到記錄變數中。
    - 在 SELECT 子句可使用 `*` 來選取所有欄位，不需逐一列出欄位。
 
 轉換成 PL/SQL 程式碼如下：
@@ -99,12 +98,11 @@ end;
 ```sql
 set serveroutput on
 declare
-    -- #1 使用 %rowtype 來定義一個與表格結構相同的記錄型態
-    type emp_rec_t is employees%rowtype;
-    -- #2 宣告一個記錄變數(RECORD type variable)
-    emp emp_rec_t;
+    
+    -- #1 宣告一個記錄變數(RECORD type variable)
+    emp emp_rec%rowtype;
 begin
-    -- #3 將欄位資料放入到記錄變數的欄位中
+    -- #2 將欄位資料放入到記錄變數的欄位中
     select * into emp
     from employees
     where employee_id = 100;
@@ -145,9 +143,6 @@ end;
 
 例如，你想要建立一個記錄變數，並將 100, 'John', 和 'Doe' 這三個值分別指定給 `employee_id`, `first_name`, 和 `last_name` 欄位。
 
-You have two ways to assign values to the record fields:
-1. Use the Record Type definition as a constructor to create a record variable.
-2. Assign a value to each field of the record variable.
 
 我們可以使用兩種方式來初始化記錄變數的欄位值。
 1. 使用記錄類型態(RECORD type)作為建構函數來建立記錄變數
@@ -203,7 +198,7 @@ end;
 ## 結語
 
 - 使用 RECORD 變數可以方便地處理來自於表格的整列資料，使程式碼更為簡潔。
-- 使用 `%rowtype` 來定義與表格結構相同的記錄型態(RECORD type)。
+- 使用 `%rowtype` 來定義與表格結構相同的記錄變數。
 - 使用 `<record_name>.<field_name>` 語法來存取記錄中的某個欄位。
 - 可以在 INTO 子句中使用 RECORD 變數，使程式碼更為簡潔。
 - RECORD Type 可以做為建構函數來初始化記錄變數的欄位值。
