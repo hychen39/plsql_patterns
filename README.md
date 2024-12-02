@@ -6,6 +6,12 @@ description: "提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學�
 
 ## 近期文章
 
+### 2024 Dec 01
+
+{% content-ref url="09-02-nested-block-handling.md" %}
+[09-02-nested-block-handling.md](09-02-nested-block-handling.md)
+{% endcontent-ref %}
+
 ### 2024 Nov 25
 
 {% content-ref url="09-01-except-handling.md" %}
