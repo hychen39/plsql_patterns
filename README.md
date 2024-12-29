@@ -6,6 +6,12 @@ description: "提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學�
 
 ## 近期文章
 
+### 2024 Dec 29
+
+{% content-ref url="PU02-01-proc-with-opt-args.md" %}
+[PU02-01-proc-with-opt-args.md](PU02-01-proc-with-opt-args.md)
+{% endcontent-ref %}
+
 ### 2024 Dec 01
 
 {% content-ref url="09-02-nested-block-handling.md" %}

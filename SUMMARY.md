@@ -38,3 +38,6 @@
 ## Ch09 例外處理
 * [P09\_01 例外處理概述](09-01-except-handling.md)
 * [P09\_02 巢狀區塊處理可能發生例外的敘述](09-02-nested-block-handling.md)
+
+## PU02 預儲程序
+* [PU02\_01 帶有選擇性引數的預儲程序](PU02-01-proc-with-opt-args.md)
