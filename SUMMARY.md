@@ -36,6 +36,7 @@
 ## Ch08
 
 * [P08\_01 使用顯式游標進行 DML 操作](08-01-DML-explicit-cursor.md)
+* [P08\_02 為何使用顯式游標(Explicit Cursor) 對資料表執行 Update 而不直接使用 Update 操作](08-02-explicit-cursor-for-update.md)
 
 ## Ch09 例外處理
 

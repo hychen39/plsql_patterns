@@ -6,6 +6,12 @@ description: "提供 PL/SQL 程式設計中的常見樣態(patterns), 幫助學�
 
 ## 近期文章
 
+### 2025 Nov 29
+
+{% content-ref url="08-02-explicit-cursor-for-update.md" %}
+[08-02-explicit-cursor-for-update.md](08-02-explicit-cursor-for-update.md)
+{% endcontent-ref %}
+
 ### 2024 Dec 29
 
 {% content-ref url="PU02-01-proc-with-opt-args.md" %}
