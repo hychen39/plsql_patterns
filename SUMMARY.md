@@ -26,6 +26,11 @@
 * [P05\_02 取得 DML 語句所影響的資料列數](05-02-obtain-num-affected-rows.md)
 * [P05\_03 插入多筆資料列至表格中](05-03-insert-multi-rows.md)
 
+## Ch06
+
+* [P06\_01 巢狀迴圈內使用 Continue 及 Exit 控制迴圈流程](06-01-nested-loop-control.md) 
+* [P06\_02 Case expression 與 Case statement; Simple Case 與 Searched Case](06-02-case-expression.md)
+
 ## Ch07
 
 * [P07\_01 RECORD 型態變數的定義、宣告及使用](07-01-access-record-fields.md)
